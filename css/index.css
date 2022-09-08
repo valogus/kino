@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0px;
+    color:#575757;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.topbar{
+    background-color:rgb(61, 46, 149);
+    display:flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+.znachok{
+    height: 70px;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    clip-path: circle(50%);
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+}
+.logo:hover{
+    
+    border: 3px solid white;
+    border-radius: 50%;
+    
+}
+.topbar a{
+    color:rgb(233, 220, 162);
+    text-decoration:none;
+    font-size: 20px;
+    width: 250px;
+    
+}
+
+.topbar a:hover{
+  text-decoration: underline;
+  color:rgb(244, 201, 8);
+}
+
+.links{
+    display:flex;
+    
+    
+}
+span .lupa{height: 20px; width:20px; display:block; position:relative;}
+ 
+.lupa:before, .lupa:after{content:''; height:15px; display:block; position:relative; top:0; left:0; }
+ 
+.lupa:before{width:10px; height: 10px; border:2px #e9dca2 solid; border-radius:100%;-webkit-border-radius:100%;-moz-border-radius:100%;}
+ 
+.lupa:after{width:2px; height: 10px; background:#e9dca2; transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);-ms-transform:rotate(-45deg); top:-4px; left:12px;}
+.lupa:hover::after{
+    background:#f4c908;
+}
+.lupa:hover::before{
+    border:2px #f4c908 solid;
+}
+.top, .bot{
+    display: flex;
+    justify-content: center;
+}
+.movies{
+    transition: all 0.5s ease-in-out;
+    width: 440px;
+    height: 650px;
+    border:2px;
+    border-radius:12px 12px 12px 12px;
+}
+.movies:hover {
+    
+    transform: scale(1.01);
+
+}
+.movies1{
+    width: 430px;
+    transition: all 0.3s ease-in-out;
+    border:2px;
+    border-radius:12px 12px 12px 12px;
+
+}
+
+.movies1:hover{
+    transform: scale(1.01);
+}
+
+.rec h2, .new h2{
+    display: block;
+    padding:100px 800px 20px 0;
+    position: relative;
+    margin-right: 400px;
+    top:-20px;
+    color:#ebb608;
+    
+    
+}    
+
+.rec h2{
+    padding:100px 720px 40px 0;
+}
+.plus{
+    display:inline-block;
+    background: #f4c908;
+    color: #000;
+    text-align: center;
+    border-radius: 20%;
+    padding: .3em .65em;
+    position:relative;
+    top:-210px;
+    right:420px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.bot .plus{
+    position:relative;
+    top:-620px;
+    right:430px;
+    
+}
+.plus:hover{
+    transform: scale(1.1);
+}
+h3{
+    color:rgb(165, 165, 165)
+}
+.new, .rec {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+ 
