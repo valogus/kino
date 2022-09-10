@@ -2,24 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/index.css">
     <title>Эльбрус Кино</title>
 </head>
 <body>
-
+<div content>
 <div class="topbar">
-    <img class="znachok" alt="logo" src ="img/Elbrus.png">
-    <div class="links">
-    <a href="index.html">МОЕ КИНО</a>
-    <a href="">МАГАЗИН</a>
-    <a href="">ПОКУПКИ</a>
-    <span class="lupa"></span>
+    <div class="znachok-container">
+    <img class="znachok" alt="logo" src ="img/Elbrus.jpeg">
     </div>
+    <nav id="menu" class="menu_body">
+    <div class="links"> 
+           <div class="menu_item"><a href="#index">МОЕ КИНО</a></div>
+           <div class="menu_item"><a href="#shop">МАГАЗИН</a></div>
+           <div class="menu_item"><a href="#buy">ПОКУПКИ</a></div>
+            <div class=""><span class="lupa"></span></div>
+    </div>
+     </nav>
     <span class="circle-image">
         <img class="logo" alt="мое фото" src ="img/1photo.jpeg">
     </span>
+    <a href="#menu" class="menu_icon"><span></span></a>
+    <a href="#index" class="close"></a>
 </div>
-<div clas="main">
+<div class="main">
 <div class = "new">
     <h2>Новое в подписке</h2><br>
 
@@ -29,7 +36,7 @@
         <h3>Джон Уик</h3>
         <p>2014, боевик, триллер</p>
     </div>
-    <div><img class="movies1" alt="" src="img/soul.webp">
+    <div><img class="movies1"  alt="" src="img/soul.webp">
         <div class ="plus">8.2</div> 
         <h3>Лучше звоните Солу</h3>
         <p>с 2015, драма, криминал</p>
@@ -52,7 +59,7 @@
     </div>
     <div><img class="movies" alt="" src="img/solo.jpg">
         <div class ="plus">6.9</div> 
-        <h3>Хан Соло: Звёздные войны. Истории</h3>
+        <h3>Хан Соло: Звёздные войны.</h3>
         <p>2018, фантастика, фэнтези</p>
     </div>    
     <div><img class="movies" alt="" src="img/glass.jpg">
@@ -63,6 +70,6 @@
 </div>
 </div>
 </div>
-
+</div>
 </body>
 </html>
